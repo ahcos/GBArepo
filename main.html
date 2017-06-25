@@ -2,9 +2,10 @@
 <html lang="de-DE">
 <head>
     <meta charset="UTF-8">
-    <title>Test</title>
+    <title>GBA Eilers & Partner</title>
     <link type="text/css" href="GBAcss/GBAcss.css" rel="stylesheet"/>
     <script type="text/javascript" src="GBAjava/GBAjava.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <base href="" target="_blank">                         <!-- TODO -->
 
@@ -27,24 +28,45 @@
     </div>
 
 </header>
-<nav class="w3-container" id="mainNav">
+<nav class="w3-bar w3-gba-back-blue" id="mainNav">
 
     <ul class="">
-        <li id="navPoint1" title="nav #1">first</li>
-        <li id="navPoint2" title="nav #2">second</li>
-        <li id="navPoint3" title="nav #3">third</li>
-        <li id="navPoint4" title="nav #4">fourth</li>
+        <li class="w3-bar-item w3-button w3-round-xlarge w3-mobile" id="navPoint1" title="nav #1" target="_blank">
+            <a id="navHome" class="w3-text-white " ><strong>Startseite</strong></a>
+        </li>
+        <li class="w3-bar-item w3-button w3-round-xlarge w3-mobile w3-dropdown-hover" id="navPoint2" title="nav #2">
+            <a id="navOverview" class="w3-text-white" ><strong>Informationen über die GBA</strong></a>
+            <div class="w3-dropdown-content w3-bar-block w3-border w3-round-xlarge w3-gba-back-blue">
+                <a href="#" id="navDrop1" class="w3-bar-item w3-button w3-text-white w3-round-xlarge"><strong>Informationen über die GBA Informationen über die GBA</strong></a>
+                <a href="#" id="navDrop2" class="w3-bar-item w3-button w3-text-white w3-round-xlarge"><strong>Link 2</strong></a>
+                <a href="#" id="navDrop3" class="w3-bar-item w3-button w3-text-white w3-round-xlarge"><strong>Link 3</strong></a>
+            </div>
+        </li>
+        <li class="w3-bar-item w3-button w3-round-xlarge w3-mobile w3-dropdown-hover" id="navPoint3" title="nav #3">
+            <a id="navOffer" class="w3-text-white" ><strong>Angebote</strong></a>
+            <div class="w3-dropdown-content w3-bar-block w3-border w3-round-xlarge w3-gba-back-blue">
+                <a href="#" id="navDrop4" class="w3-bar-item w3-button w3-text-white w3-round-xlarge"><strong>Informationen über die GBA Informationen über die GBA</strong></a>
+                <a href="#" id="navDrop5" class="w3-bar-item w3-button w3-text-white w3-round-xlarge"><strong>Link 2</strong></a>
+                <a href="#" id="navDrop6" class="w3-bar-item w3-button w3-text-white w3-round-xlarge"><strong>Link 3</strong></a>
+            </div>
+        </li>
+        <li class="w3-bar-item w3-button w3-round-xlarge w3-mobile" id="navPoint4" title="nav #4">
+            <a id="navContact" class="w3-text-white" ><strong>Kontakt</strong></a>
+        </li>
+        <li class="w3-bar-item w3-button w3-round-xlarge w3-mobile" id="navPoint5" title="nav #5">
+            <a id="navImprint" class="w3-text-white" ><strong>Impressum</strong></a>
+        </li>
     </ul>
 
 </nav>
-<div class="w3-container w3-light-gray">
+<div id="infoPage1" class="w3-container w3-light-gray w3-mobile">
     <h3 class="w3-panel w3-border w3-round-xlarge w3-blue"><strong class="w3-text-white">Infos zur GBA</strong></h3>
-    <pre class="w3-verdana">
+    <pre class="w3-verdana w3-mobile">
 
-        Die <strong class="w3-text-blue">GBA</strong>, die ”<strong class="w3-text-blue">G</strong>esellschaft für <strong class="w3-text-blue">B</strong>erufs- und <strong class="w3-text-blue">A</strong>rbeitspsychologie,
+        Die <strong>GBA</strong>, die ”<strong>G</strong>esellschaft für <strong>B</strong>erufs- und <strong>A</strong>rbeitspsychologie,
         Eilers und Partner", wurde 1989 gegründet.
 
-        Die GBA versteht sich als <strong class="w3-text-blue">psychologische Unternehmensberatung.</strong>
+        Die GBA versteht sich als <strong>psychologische Unternehmensberatung.</strong>
 
         Diplom-Psychologen und approbierte Psychotherapeuten bilden das Beratungs- und Schulungsteam der GBA.
         Bei spezifischen Fragestellungen stützt sich die GBA auf das Fachwissen von Juristen
@@ -53,10 +75,9 @@
 </div>
 
 
-
 <footer class="w3-container">
 
-    <h5 class="w3-text-amber">Seitenende</h5>
+    <h5 class="w3-text-amber">Seitenende  "Font Awesome by Dave Gandy - http://fontawesome.io"</h5>
     <p><a href="#pageTop" >Zurück zum Seitenanfang</a> </p>
 
 </footer>

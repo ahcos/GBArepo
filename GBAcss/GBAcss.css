@@ -1312,8 +1312,8 @@ a {
 }
 
 .w3-button:hover {
-    color: #000 !important;
-    background-color: #ccc !important
+    color: #fff !important;
+    background-color: #074bdf !important
 }
 
 .w3-transparent, .w3-hover-none:hover {
@@ -1606,6 +1606,13 @@ a {
 .w3-border-grey, .w3-hover-border-grey:hover, .w3-border-gray, .w3-hover-border-gray:hover {
     border-color: #bbb !important
 }
+
+
+
+/* ADDED THIS CONTENT FOR PAGE */
+
+
+
 .w3-tangerine {
     font-family: 'Tangerine', serif;
 }
@@ -1614,8 +1621,74 @@ a {
     font-size: 15px;
 }
 .w3-gba-blue{
-    color:#05359c
+    color:#05359c;
 }
 .w3-gba-back-blue{
      background-color:#05359c;
  }
+
+#navHome::before {
+    content: "\f015";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 10px 0px 0px;
+    text-decoration:none;
+}
+
+#navOverview::before {
+    content: "\f129";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 10px 0px 0px;
+    text-decoration:none;
+
+}
+
+#navImprint::before {
+    content: "\f040";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 10px 0px 0px;
+    text-decoration:none;
+}
+
+#navContact::before {
+    content: "\f0e0";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 10px 0px 0px;
+    text-decoration:none;
+}
+#navOffer::before {
+    content: "\f006";
+    font-family: FontAwesome;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-style: normal;
+    margin:0px 10px 0px 0px;
+    text-decoration:none;
+}
+a[id^="nav"] {
+    background-color: inherit;
+
+}
+a[id^="navDrop"]:hover {
+    background-color: #074bdf;
+    color: white;
+    font-style: inherit;
+
+
+
+}
+
+#infoPage1 strong {
+    color: #2196F3
+}
